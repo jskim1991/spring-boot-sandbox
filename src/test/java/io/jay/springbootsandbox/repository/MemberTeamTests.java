@@ -36,9 +36,12 @@ public class MemberTeamTests {
                 .build();
         entityManager.persist(secondMember);
 
-        // is this necessary ?
+        /* 연관관계 주인이 아닌쪽은 별도 추가 불필요
         team.getMembers().add(firstMember);
         team.getMembers().add(secondMember);
+         */
+        entityManager.flush();
+        entityManager.clear();
 
 
         Member returnedMember = entityManager.find(Member.class, "m2");

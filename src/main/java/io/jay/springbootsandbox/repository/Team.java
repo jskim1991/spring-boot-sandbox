@@ -19,8 +19,10 @@ public class Team {
 
     private String name;
 
-//    @OneToMany(targetEntity = Member.class)
-//    private List<Member> members;
+    /* using targetEntity
+    @OneToMany(targetEntity = Member.class)
+    private List<Member> members;
+    */
 
     @Builder
     public Team(String id, String name) {
