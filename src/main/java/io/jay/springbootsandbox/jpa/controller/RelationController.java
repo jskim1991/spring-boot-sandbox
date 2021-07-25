@@ -1,7 +1,7 @@
-package io.jay.springbootsandbox.controller;
+package io.jay.springbootsandbox.jpa.controller;
 
-import io.jay.springbootsandbox.repository.Member;
-import io.jay.springbootsandbox.repository.Team;
+import io.jay.springbootsandbox.jpa.repository.Member;
+import io.jay.springbootsandbox.jpa.repository.Team;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

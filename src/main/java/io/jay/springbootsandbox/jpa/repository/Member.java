@@ -1,4 +1,4 @@
-package io.jay.springbootsandbox.repository;
+package io.jay.springbootsandbox.jpa.repository;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

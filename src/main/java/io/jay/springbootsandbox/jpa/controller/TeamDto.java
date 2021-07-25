@@ -1,4 +1,4 @@
-package io.jay.springbootsandbox.controller;
+package io.jay.springbootsandbox.jpa.controller;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
